@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页填写授权码。",
+    Unauthorized: "现在是未授权状态，请在设置页填写授权码,微信联系lsx52143.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -65,14 +65,14 @@ const cn = {
       SubTitle: "聊天内容的字体大小",
     },
 
-    Update: {
-      Version: (x: string) => `当前版本：${x}`,
-      IsLatest: "已是最新版本",
-      CheckUpdate: "检查更新",
-      IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
-    },
+//     Update: {
+//       Version: (x: string) => `当前版本：${x}`,
+//       IsLatest: "已是最新版本",
+//       CheckUpdate: "检查更新",
+//       IsChecking: "正在检查更新...",
+//       FoundUpdate: (x: string) => `发现新版本：${x}`,
+//       GoToUpdate: "前往更新",
+//     },
     SendKey: "发送键",
     Theme: "主题",
     TightBorder: "紧凑边框",
